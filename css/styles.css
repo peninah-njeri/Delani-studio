@@ -1,8 +1,12 @@
 /* background image 1 */
+body{
+    margin: 0;
+    padding: 0;
+}
 .top{
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-size: cover;
-    height: 600px;
+    height: 700px;
     background-position: center;
     text-align: center;
     color: azure
@@ -36,4 +40,3 @@
 .contact{
     background-image: url(/assets/backgrounds/c_image.jpg)
 }
-;
