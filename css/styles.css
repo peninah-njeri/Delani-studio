@@ -90,7 +90,8 @@ img.w-100 {
 	background-image: url(/assets/backgrounds/c_image.jpg);
 	background-size: cover;
 	width: 100%;
-	color: white;
+    color: rgb(255, 255, 255);
+     margin-top: 40px;
 }
 
 .contact-us h3 {
@@ -101,7 +102,7 @@ button#submit-button {
     border: solid;
     border-style: double;
     border-color: white;
-    background-color: white;
+    background-color: rgb(224, 8, 8);
 }
 
 .row.button {
@@ -130,18 +131,18 @@ textarea#contact-message {
 }
 
 .form-control {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(224, 217, 217, 0.3) !important;
     border-radius: 0;
     color: white;
-    border: 1px solid #7f848a;
+
 }
 
 .btn-secondary {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.2);
-    border-color: #4e555b;
+  
 }
 
-.container-full.contact-us.bg-transparent h1 {
+.contact-us.bg-transparent h1 {
     padding: 2%;
 }
