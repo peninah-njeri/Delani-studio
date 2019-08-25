@@ -42,7 +42,7 @@ $(document).ready(function(){
     var wrap = ['.port0','.port1','.port2','.port3','.port4','.port5','.port6','.port7'];
      wrap.forEach(y => {
        var indexofwrap = wrap.indexOf(y);
-       var overlay=['.portoverlay1','.portoverlay2','.portoverlay3','.portoverlay4','.portoverlay5','.portoverlay6','.portoverlay7','.portoverlay8'];
+       var overlay=['.laycon1','.laycon2','.laycon3','.laycon4','.laycon5','.laycon6','.laycon7','.laycon8'];
        $(y).mouseover(function() {
          $(overlay[indexofwrap]).show();
          }).mouseout(function() {
