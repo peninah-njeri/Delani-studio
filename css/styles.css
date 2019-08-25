@@ -35,10 +35,113 @@ body{
 }
 .wedoo{
     margin-top: 30px
+
+}
+/* portfolio styles */
+div#portfolio h3 {
+    padding: 2%;
 }
 
-.contact{
-    background-image: url(/assets/backgrounds/c_image.jpg);
-   height: 500px;
-    
+.portfolio h1{
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top:3%;
+}
+
+.portfolio img{
+width:100%;
+height: auto;
+}
+
+.port0,.port2, .port3,.port4,.port5,.port6,.port7,.port8{
+  	width:95%;
+    color:white;
+    height:91%;
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display:none;
+
+}
+
+.port1{
+  padding-top:3%;
+}
+
+img.w-100 {
+  padding-bottom: 3%;
+}
+.laycon1,.laycon2,.laycon3,.laycon4,.laycon5,.laycon6,.laycon7,.laycon8{
+
+ width:90%;
+ margin-top: 35%;
+ margin-left: 5%;
+ height: 90%;
+ position: relative;
+}
+
+.port0 h1,.port2 h1,.port3 h1,.port4 h1,.porto5 h1,.port6 h1,.port7 h1,.port8 h1{
+    padding-top: 3%;
+    text-align: left;
+    font-weight: 800px;
+    font-size: 30px;   
+}
+.contact-us {
+	background-image: url(/assets/backgrounds/c_image.jpg);
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+
+.contact-us h3 {
+	padding: 2%;
+}
+
+button#submit-button {
+    border: solid;
+    border-style: double;
+    border-color: white;
+    background-color: white;
+}
+
+.row.button {
+    padding-bottom: 1%;
+}
+
+h1#contact-header {
+    color: white;
+    padding: 2%;
+}
+
+div#footer {
+    padding: 2%;
+}
+
+input#contact-email {
+    color: white;
+}
+
+input#contact-name {
+    color: white;
+}
+
+textarea#contact-message {
+    color: white;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0;
+    color: white;
+    border: 1px solid #7f848a;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: #4e555b;
+}
+
+.container-full.contact-us.bg-transparent h1 {
+    padding: 2%;
 }
