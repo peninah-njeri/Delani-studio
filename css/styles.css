@@ -106,7 +106,7 @@ img.w-100 {
 }
 
 .contact-us {
-	background-image: url(/assets/backgrounds/c_image.jpg);
+	background-image: url(../assets/backgrounds/c_image.jpg);
 	background-size: cover;
 	width: 100%;
     color: rgb(255, 255, 255);
