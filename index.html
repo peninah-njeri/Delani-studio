@@ -8,6 +8,9 @@
     <title>Delani-studio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
 </head>
 
@@ -23,19 +26,19 @@
             <img src="/assets/mouse_click.png">
         </div>
     </div>
-<div class="container">
-    <div class="about-us text-center">
-        <h2>ABOUT US</h2>
-        <p>When you work with us, you are part of a team of committed collaborators.
-            All aspects of our software development process are integrated, iterative and agile.
+    <div class="container">
+        <div class="about-us text-center">
+            <h2>ABOUT US</h2>
+            <p>When you work with us, you are part of a team of committed collaborators.
+                All aspects of our software development process are integrated, iterative and agile.
 
-            Our approach unifies design, development and
-            project management to create exceptional products.
-            We start each project by understanding our business goals,
-            the user's needs and the products requirements.
-            Then we help translate them into effective and elegant solutions</p>
+                Our approach unifies design, development and
+                project management to create exceptional products.
+                We start each project by understanding our business goals,
+                the user's needs and the products requirements.
+                Then we help translate them into effective and elegant solutions</p>
+        </div>
     </div>
-</div>
     <div class="services">
         <div class="offered">
             <h2>SERVICES</h2>
@@ -50,168 +53,162 @@
     </div>
     <div id="what-we-do">
         <div id="wedoo">
-        <h5>WHAT WE DO</h5>
-        <div class="row">
-            <div class="col-md-4 designs1">
-                <img src="/assets/services_icons/design_icon.png" id="image1">
-                <h5>DESIGNS</h5>
-                <p id="designs-p" class="hide-me">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="/assets/services_icons/dev_icon.png" id="image2">
-                <h5>DEVELOPMENT</h5>
-                <p id="dev-p" class="hide-me">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="/assets/services_icons/product_icon.png" id="image3">
-                <h5>PRODUCT MANAGEMENT</h5>
-                <p id="pm-p"
-                class="hide-me">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+            <h5><b>WHAT WE DO</b></h5><br>
+            <div class="row">
+                <div class="col-md-4 designs1">
+                    <img src="/assets/services_icons/design_icon.png" id="image1">
+                    <h5>DESIGNS</h5>
+                    <p id="designs-p" class="hide-me">Our design practice offers a full range of services including
+                        branding strategy,interaction and visual design and user experience testing. Throughout your
+                        project, our designers create and implement visual designs and workflows solicit user feedback,
+                        and work with you to make sure what gets built is what is needed.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/assets/services_icons/dev_icon.png" id="image2">
+                    <h5>DEVELOPMENT</h5>
+                    <p id="dev-p" class="hide-me">All engineers are fluent in the latest enterprise, mobile and web
+                        development technologies. They collaborate with your team to write, test, and improve code on a
+                        daily basis, using proven practices such as test-driven development and pair programming.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/assets/services_icons/product_icon.png" id="image3">
+                    <h5>PRODUCT MANAGEMENT</h5>
+                    <p id="pm-p" class="hide-me">Planning and development is iterative. Because we are constantly coding
+                        and testing, the products we build are always ready to go live.This iterative process allows for
+                        changes as business requirements eveolve.</p>
 
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container portfolio">
+    <div class="container portfolio">
         <h1>PORTFOLIO</h1>
         <div class="row">
-            <div class="col-md-3" img-1>
-                <img  class = "w-100" src="/assets/portfolio/work4.jpg" alt="" >
-                <div class="port0">
-                    <div class="laycon1">
-                        <h4>GRADIENTS</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk1">
+                    <img class="w-100" src="/assets/portfolio/work4.jpg" alt="">
+                    <p class="hideMe" id="hideMe0">GRADIENT</p>
                 </div>
             </div>
-            <div class="col-md-3" img-2>
-                <img  class = "w-100" src="/assets/portfolio/work3.jpg" alt="" >
-                <div class="port2">
-                    <div class="laycon2">
-                        <h4>SECURITY LOGO</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk2">
+                    <img class="w-100" src="/assets/portfolio/work3.jpg" alt="">
+                    <p class="hideMe" id="hideMe1">SECURITY LOGO</p>
                 </div>
             </div>
-            <div class="col-md-3" img-3>
-                <img  class = "w-100" src="/assets/portfolio/work2.jpg" alt="" >
-                <div class="port3">
-                    <div class="laycon3">
-                        <h4>TEXTURES</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk3">
+                    <img class="w-100" src="/assets/portfolio/work2.jpg" alt="">
+                    <p class="hideMe" id="hideMe2">TEXTURES</p>
                 </div>
             </div>
-            <div class="col-md-3" img-4>
-                <img  class = "w-100" src="/assets/portfolio/work1.jpg" alt="" >
-                <div class="port4">
-                    <div class="laycon4">
-                        <h4>MOVIE AP</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk4">
+                    <img class="w-100" src="/assets/portfolio/work1.jpg" alt="">
+
+                    <p class="hideMe" id="hideMe3">MOVIE AP</p>
                 </div>
             </div>
-        </div>
-        <div class="row port1">
-            <div class="col-md-3" img-5>
-                <img  class = "w-100" src="/assets/portfolio/work5.jpg" alt="" >
-                <div class="port5">
-                    <div class="laycon5">
-                        <h4>WEBSITE</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk5">
+                    <img class="w-100" src="/assets/portfolio/work5.jpg" alt="">
+                    <p class="hideMe" id="hideMe4">WEBSITE</p>
+
                 </div>
             </div>
-            <div class="col-md-3" img-6>
-                <img   class = "w-100" src="/assets/portfolio/work6.jpg" alt="" >
-                <div class="port6">
-                    <div class="laycon6">
-                        <h4>CALCULATOR</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk6">
+                    <img class="w-100" src="/assets/portfolio/work6.jpg" alt="">
+
+                    <p class="hideMe" id="hideMe5">CALC</p>
+
                 </div>
             </div>
-            <div class="col-md-3" img-7>
-                <img  class = "w-100" src="/assets/portfolio/work7.jpg" alt="" >
-                <div class="port7">
-                    <div class="laycon7">
-                        <h4>LOGO</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk7">
+                    <img class="w-100" src="/assets/portfolio/work7.jpg" alt="">
+
+                    <p class="hideMe" id="hideMe6">LOGO</p>
+
                 </div>
             </div>
-            <div class="col-md-3" img-8>
-                <img  class = "w-100" src="/assets/portfolio/work8.jpg" alt="" >
-                <div class="port8">
-                    <div class="laycon8">
-                        <h4>WONGER</h4>
-                    </div>
+            <div class="col-md-3">
+                <div class="show" id="wk8">
+                    <img class="w-100" src="/assets/portfolio/work8.jpg" alt="">
+                    <p class="hideMe" id="hideMe7">WONGER</p>
+
+
                 </div>
             </div>
-        </div>
-        <div class="contact-us">
-        		<h1>CONTACT US</h1>
-	    	  	<div class="row bg-transparent col-md-12">
-	    			<form role="form" id= "contact-us"  class="contact-us">
-		            <div class="row col-md-12">
-						<div class="col-md-2">
-						</div>
-		          		<div class="col-md-4">
-		            		<div class="form-group">
-		                      <input type="text" class="form-control" name="Name" autocomplete="off" id="name" placeholder="Name..." required>
-		            		</div>
-		            	</div>
-		            	<div class="col-md-4">
-		            		<div class="form-group">
-		                      <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail..." required>
-		            		</div>
-		          		</div>
-						<div class="col-md-2">
-						</div>
-		            </div>
-		          	<div class="row col-md-12">
-		            	<div class="col-md-2">
-		              	</div>
-		          		<div class="col-md-8">
-	            			<div class="form-group">
-		                		<textarea class="form-control" rows="10" name="message" id="message" placeholder="Your message here..." required></textarea>
-		          			</div>
-	          			</div>
-		          	 </div>
-		            <div class="col-md-2">
-		            </div>
-	            	<div class="row button">
-	            		<div class="col-md-5"></div>
-	              		<div class="col-md-2">
-	                		<button type="submit" class="btn btn-secondary main-btn pull-right" id = "submit">Send</button>
-	              		</div>
-	              		<div class="col-md-5"></div>
-	            	</div>
-	            	</form>
-	          	</div>
-      		</div>
-      		<!--Contact Form Ends Here-->
-			<!--This contains the footer section for our studio site-->
-			<div class="container-full bg-white" id="footer">
-				<div class="text-center" id="icons">
-					<img src="assets/social_icons/twitter.png" id="social_icons">
-					<img src="/assets/social_icons/dribble.png" id="social_icons">
-					<img src="/assets/social_icons/facebook.png" id="social_icons">
-					<img src="/assets/social_icons/g_plus.png" id="social_icons">
-					<img src="/assets/social_icons/skype.png" id="social_icons">
-					<img src="/assets/social_icons/stumble_upon.png" id="social_icons">
-					<img src="/assets/social_icons/behance.png" id="social_icons">
-					<img src="/assets/social_icons/pinterest.png" id="social_icons">
-					<img src="/assets/social_icons/flickr.png" id="social_icons">
-				</div>
+            <div class="contact-us">
+                <h1>CONTACT US</h1>
+                <div class="row bg-transparent col-md-12">
+                    <form role="form" id="contact-us" class="contact-us">
+                        <div class="row col-md-12">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="Name" autocomplete="off" id="name"
+                                        placeholder="Name..." required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" autocomplete="off" id="email"
+                                        placeholder="E-mail..." required>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                        <div class="row col-md-12">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="10" name="message" id="message"
+                                        placeholder="Your message here..." required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="row button">
+                            <div class="col-md-5"></div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-secondary main-btn pull-right"
+                                    id="submit">Send</button>
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <!-- div class="container-full" id="copyright"> -->
-				<!-- <p> -->
-					<!-- DELANI STUDIO <br> -->
-					<!-- 2019 -->
-				</p>
-			</div>
-    
- 
-    
-            <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
- 
+            <!--Contact Form Ends Here-->
+            <!--This contains the footer section for our studio site-->
+            <div class="container-fluid">
+                <div class="icons">
+                    <div class="row">
+                        <div class="links">
+                            <BR>
+                            <img src="assets/social_icons/twitter.png" id="social_icons">
+                            <img src="/assets/social_icons/dribble.png" id="social_icons">
+                            <img src="/assets/social_icons/facebook.png" id="social_icons">
+                            <img src="/assets/social_icons/g_plus.png" id="social_icons">
+                            <img src="/assets/social_icons/skype.png" id="social_icons">
+                            <img src="/assets/social_icons/stumble_upon.png" id="social_icons">
+                            <img src="/assets/social_icons/behance.png" id="social_icons">
+                            <img src="/assets/social_icons/pinterest.png" id="social_icons">
+                            <img src="/assets/social_icons/flickr.png" id="social_icons">
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <p>DELANI STUDIO</p>
+                    <P>2019</P>
+                </footer>
+            </div>
 
             <script src="js/scripts.js"></script>
 </body>

@@ -40,7 +40,10 @@ body{
 }
 #wedoo{
     margin-top: 30px;
-    text-align: center
+    text-align: center;
+    font-size: 30px;
+  
+
 }
 .hide-me{
     display: none;
@@ -59,29 +62,9 @@ body{
 #pm-p{
     display: none
 }
-#struct{
+ #struct{
     padding: 6%;
-    text-align: center;
-
-/* portfolio styles
-#portfolio h3 {
-    padding: 2%;
-} */
-}
-.portfolio h1{
-  text-align: center;
-  padding-bottom: 3%;
-  padding-top:3%;
-}
-
-.portfolio img{
-width:100%;
-height: auto;
-}
-
-.port0,.port2, .port3,.port4,.port5,.port6,.port7,.port8{/* div#struct{ */
-    /* padding: 6%; */
-    /* text-align: center; */
+    text-align: center; 
 
 /* portfolio styles
 #portfolio h3 {
@@ -100,13 +83,17 @@ height: auto;
 }
 
 .port0,.port2, .port3,.port4,.port5,.port6,.port7,.port8{
-  	width:95%;
-    color:white;
-    height:91%;
-    position: absolute;
-    top:0;
-    background-color: rgba(0, 0, 0, 0.7);
-    display:none;
+display: none;
+}
+.portfolio h1{
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top:3%;
+}
+
+.portfolio img{
+width:100%;
+height: auto;
 
 }
 
@@ -117,21 +104,7 @@ height: auto;
 img.w-100 {
   padding-bottom: 3%;
 }
-.laycon1,.laycon2,.laycon3,.laycon4,.laycon5,.laycon6,.laycon7,.laycon8{
 
- width:90%;
- margin-top: 35%;
- margin-left: 5%;
- height: 90%;
- position: relative;
-}
-
-.port0 h1,.port2 h1,.port3 h1,.port4 h1,.porto5 h1,.port6 h1,.port7 h1,.port8 h1{
-    padding-top: 3%;
-    text-align: left;
-    font-weight: 800px;
-    font-size: 30px;   
-}
 .contact-us {
 	background-image: url(/assets/backgrounds/c_image.jpg);
 	background-size: cover;
@@ -183,8 +156,30 @@ textarea#contact-message {
 
 }
 
-.btn-secondary {
+.btn-secondary{
     color: #fff;
     background-color: rgba(0, 0, 0, 0.2);
   
+}
+.links{
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.icons{
+    margin-top:10px;
+    justify-self: center; 
+}
+.hideMe{
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0.1px;
+    bottom: 40px;
+    font-size: 40px;
 }

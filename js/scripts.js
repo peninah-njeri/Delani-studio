@@ -33,3 +33,72 @@ $(document).ready(function(){
     $('#image3').show();
   });
 });
+// // hover portfolio
+// $(document).ready(function(){
+//   $(".laycon").hide();
+//   $(".w-100").hover(function(){
+//     $(this).find(".laycon").toggle(500);
+//   })
+// })
+
+$(document).ready(function(){
+$("#wk1").mouseenter(function(){
+  $("#hideMe0").show();
+}).mouseleave(function(){
+  $("#hideMe0").hide();
+})
+$("#wk2").mouseenter(function(){
+  $("#hideMe1").show();
+}).mouseleave(function(){
+  $("#hideMe1").hide();
+})
+$("#wk3").mouseenter(function(){
+  $("#hideMe2").show();
+}).mouseleave(function(){
+  $("#hideMe2").hide();
+})
+$("#wk4").mouseenter(function(){
+  $("#hideMe3").show();
+}).mouseleave(function(){
+  $("#hideMe3").hide();
+})
+$("#wk5").mouseenter(function(){
+  $("#hideMe4").show();
+}).mouseleave(function(){
+  $("#hideMe4").hide();
+})
+$("#wk6").mouseenter(function(){
+  $("#hideMe5").show();
+}).mouseleave(function(){
+  $("#hideMe5").hide();
+})
+$("#wk7").mouseenter(function(){
+  $("#hideMe6").show();
+}).mouseleave(function(){
+  $("#hideMe6").hide();
+})
+$("#wk8").mouseenter(function(){
+  $("#hideMe7").show();
+}).mouseleave(function(){
+  $("#hideMe7").hide();
+})
+})
+
+//form
+$("#submit").click(function(event){
+  var name=$("#name").val();
+  var email=$("#email").val();
+  var message=$("#message").val();
+/** user logic interface */
+  if((name!=="") && (email !== "") && (message !="")){
+      alert(name + " ,We have received your message.Thank you for reaching out to us");
+  }
+  else 
+  {
+      alert("Fill the form please");
+  }
+  event.preventDefault();
+});
+
+
+
