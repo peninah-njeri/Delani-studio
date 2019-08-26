@@ -1,62 +1,35 @@
-$(document).ready(function() {
-  $("#designs").click(function(){
-    $("#designs-p").show();
-  });
-  $("#designs").click(function(){
-    $("#designs").hide();
-  });
-  $("#designs-p").click(function(){
-    $("#designs").show();
-  });
-  $("#designs-p").click(function(){
-    $("#designs-p").hide();
+$(document).ready(function(){
+
+  $('#image1').click(function(){
+    $('.hide-me').filter('#designs-p').show(function(){
+      $('#image1').hide();
+    });
   });
 
-  $("#dev").click(function(){
-    $("#dev-p").show();
+  $('#designs-p').click(function(){
+    $('#designs-p').hide();
+    $('#image1').show();
   });
-  $("#dev").click(function(){
-    $("#dev").hide();
-  });
-  $("#dev-p").click(function(){
-    $("#dev").show();
-  });
-  $("#dev-p").click(function(){
-    $("#dev-p").hide();
+// image 2
+  $('#image2').click(function(){
+    $('.hide-me').filter('#dev-p').show(function(){
+      $('#image2').hide();
+    });
   });
 
-  $("#pm").click(function(){
-    $("#pm-p").show();
+  $('#dev-p').click(function(){
+    $('#dev-p').hide();
+    $('#image2').show();
   });
-  $("#pm").click(function(){
-    $("#pm").hide();
+  // image 3
+  $('#image3').click(function(){
+    $('.hide-me').filter('#pm-p').show(function(){
+      $('#image3').hide();
+    });
   });
-  $("#pm-p").click(function(){
-    $("#pm").show();
-  });
-  $("#pm-p").click(function(){
-    $("#pm-p").hide();
+
+  $('#pm-p').click(function(){
+    $('#pm-p').hide();
+    $('#image3').show();
   });
 });
-$(document).ready(function(){
-    var wrap = ['.port0','.port1','.port2','.port3','.port4','.port5','.port6','.port7'];
-     wrap.forEach(y => {
-       var indexofwrap = wrap.indexOf(y);
-       var overlay=['.laycon1','.laycon2','.laycon3','.laycon4','.laycon5','.laycon6','.laycon7','.laycon8'];
-       $(y).mouseover(function() {
-         $(overlay[indexofwrap]).show();
-         }).mouseout(function() {
-           $(overlay[indexofwrap]).hide();
-       })
-       })
-     $("#contact-us").submit(function() {
-      var nameInput = $("input#name").val();
-  
-      var emailInput = $("input#email").val();
-      var messageInput = $("textarea#message").val();
-  
-      alert(nameInput + " we have received your message. Thank you for reaching out to us.");
-  
-    })
-  })
-
