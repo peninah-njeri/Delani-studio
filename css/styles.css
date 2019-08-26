@@ -38,11 +38,11 @@ body{
 .offered{
     padding-top: 80px;
 }
-.wedoo{
+#wedoo{
     margin-top: 30px;
     text-align: center
 }
-#designs-p{
+.hide-me{
     display: none;
 
 }   
@@ -53,11 +53,41 @@ body{
     display: none
 }
 
-/* portfolio styles */
-div#portfolio h3 {
+#dev-p{
+    display: none
+}
+#pm-p{
+    display: none
+}
+#struct{
+    padding: 6%;
+    text-align: center;
+
+/* portfolio styles
+#portfolio h3 {
     padding: 2%;
+} */
+}
+.portfolio h1{
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top:3%;
 }
 
+.portfolio img{
+width:100%;
+height: auto;
+}
+
+.port0,.port2, .port3,.port4,.port5,.port6,.port7,.port8{/* div#struct{ */
+    /* padding: 6%; */
+    /* text-align: center; */
+
+/* portfolio styles
+#portfolio h3 {
+    padding: 2%;
+} */
+}
 .portfolio h1{
   text-align: center;
   padding-bottom: 3%;
@@ -158,7 +188,3 @@ textarea#contact-message {
     background-color: rgba(0, 0, 0, 0.2);
   
 }
-/* 
-.contact-us.bg-transparent h1 {
-    padding: 2%;
-} */
