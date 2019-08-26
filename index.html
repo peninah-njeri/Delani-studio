@@ -8,8 +8,7 @@
     <title>Delani-studio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
-    <scripts src="js/jquery-3.4.1.js"></scripts>
-    <script src="js/scripts.js"></script>
+
 </head>
 
 <body>
@@ -49,24 +48,25 @@
             </P>
         </div>
     </div>
-    <div class="container">
-    <div class="wedoo text-center">
+    <div id="what-we-do">
+        <div id="wedoo">
         <h5>WHAT WE DO</h5>
         <div class="row">
-            <div class="col-md-4">
-                <img src="/assets/services_icons/design_icon.png" id="designs">
+            <div class="col-md-4 designs1">
+                <img src="/assets/services_icons/design_icon.png" id="image1">
                 <h5>DESIGNS</h5>
-                <p id="designs-p">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                <p id="designs-p" class="hide-me">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
             </div>
             <div class="col-md-4">
-                <img src="/assets/services_icons/dev_icon.png" id="dev">
+                <img src="/assets/services_icons/dev_icon.png" id="image2">
                 <h5>DEVELOPMENT</h5>
-                <p id="dev-p">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                <p id="dev-p" class="hide-me">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
             <div class="col-md-4">
-                <img src="/assets/services_icons/product_icon.png" id="pm">
+                <img src="/assets/services_icons/product_icon.png" id="image3">
                 <h5>PRODUCT MANAGEMENT</h5>
-                <p id="pm-p">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+                <p id="pm-p"
+                class="hide-me">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
 
             </div>
         </div>
@@ -129,7 +129,7 @@
                 <img  class = "w-100" src="/assets/portfolio/work7.jpg" alt="" >
                 <div class="port7">
                     <div class="laycon7">
-                        <h4>LOGO</h4>i
+                        <h4>LOGO</h4>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class=contact-us ">
+        <div class="contact-us">
         		<h1>CONTACT US</h1>
 	    	  	<div class="row bg-transparent col-md-12">
 	    			<form role="form" id= "contact-us"  class="contact-us">
@@ -198,16 +198,22 @@
 					<img src="/assets/social_icons/flickr.png" id="social_icons">
 				</div>
             </div>
-            div class="container-full" id="copyright">
-				<p>
-					DELANI STUDIO <br>
-					2019
+            <!-- div class="container-full" id="copyright"> -->
+				<!-- <p> -->
+					<!-- DELANI STUDIO <br> -->
+					<!-- 2019 -->
 				</p>
 			</div>
     
  
     
+            <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+ 
 
+            <script src="js/scripts.js"></script>
 </body>
 
 </html>
